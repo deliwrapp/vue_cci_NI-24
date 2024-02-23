@@ -1,0 +1,1 @@
+export {TheWelcome as TheWelcome} from './TheWelcome.vue'
