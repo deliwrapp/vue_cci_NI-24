@@ -1,6 +1,15 @@
-<script setup>
+<script>
 import HelloWorld from './components/HelloWorld.vue'
-import TheWelcome from './components/TheWelcome.vue'
+import MyComponent from './components/MyComponent.vue'
+
+  export default {
+    name: "App",
+    components: {
+      HelloWorld,
+      MyComponent
+    }
+  }
+
 </script>
 
 <template>
@@ -8,12 +17,14 @@ import TheWelcome from './components/TheWelcome.vue'
     <img alt="Vue logo" class="logo" src="./assets/logo.svg" width="125" height="125" />
 
     <div class="wrapper">
-      <HelloWorld msg="Heloooo!" required />
+      <HelloWorld msg="Que veux tu savoir jeune humain ?" required />
     </div>
   </header>
 
   <main>
-    <TheWelcome />
+    <my-component
+      :msg="2"
+    ></my-component>
   </main>
 </template>
 
