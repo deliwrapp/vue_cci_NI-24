@@ -1,8 +1,7 @@
 {
-  "name": "exercice_my_first_app",
-  "version": "0.0.0",
+  "name": "app_model_bootstrap",
+  "version": "0.0.1",
   "private": true,
-  "type": "module",
   "scripts": {
     "dev": "vite",
     "dev:host": "vite --host",
@@ -12,6 +11,7 @@
     "format": "prettier --write src/"
   },
   "dependencies": {
+    "bootstrap": "^5.3.2",
     "vue": "^3.3.11"
   },
   "devDependencies": {
