@@ -56,6 +56,10 @@ A Beginner Vue Course
 - Intégration d'un Composant MainNav
     - Utilisation de `v-if` pour le rendu conditionnel des menus
     - Transmission des liens de menu via les _props_
-    - Itération avec `v-for` pour l'affichage des liens
+    
+---
+
+**Course 4**
+- La Todo List
 
 ---
